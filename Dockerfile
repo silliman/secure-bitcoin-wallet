@@ -13,7 +13,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 ##############################################################################
-FROM node:16-buster-slim AS node
+FROM node:16-bullseye-slim AS node
 
 FROM python:3.9.7-slim-buster
 
